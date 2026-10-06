@@ -1,0 +1,10 @@
+{
+  "kind": "evm_contracts",
+  "contracts": [
+    {
+      "contract": "ZTOAdapter",
+      "constructorArgs": []
+    }
+  ],
+  "notes": "Deploy ZTOAdapter from src/ZTOAdapter.sol on Ethereum with zero deployment value. Its argument-free constructor fixes the existing ZTO token at 0xd782bdea4ef02a0bd391eb9089470c8080f0a68e, LayerZero EndpointV2 at 0x1a44076050125825900e736c501f859c50fE728c (Ethereum EID 30101), and initial owner and LayerZero delegate at 0xcecc29b037f5064fcdf45a5c318f132ef76aa551; the deploying factory receives no privileges. The LayerZero V2 OFT adapter uses 6 shared decimals, locks ZTO on send and releases escrow on authenticated receive. Only the owner can set a peer, restricted to Robinhood EID 30416. The peer starts unset; bridging requires the owner to configure the actual Robinhood OFT peer. This manifest contains no initialization calls. LayerZero dependencies are vendored under src/. There is no application fee, pause, upgrade path or rescue function; LayerZero messaging fees still apply."
+}
