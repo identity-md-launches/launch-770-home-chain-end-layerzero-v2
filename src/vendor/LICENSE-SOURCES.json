@@ -1,0 +1,12 @@
+[
+  {
+    "file": "src/vendor/@layerzerolabs/LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/LayerZero-Labs/LayerZero-v2/9c741e7f9790639537b1710a203bcdfd73b0b9ac/LICENSE-MIT",
+    "sha256": "1bdefbc20068977ac6458e7142c276acb8d47090cf2dcb0016468ddd8a684244"
+  },
+  {
+    "file": "src/vendor/@layerzerolabs/LICENSE-LZBL-1.2",
+    "url": "https://raw.githubusercontent.com/LayerZero-Labs/LayerZero-v2/9c741e7f9790639537b1710a203bcdfd73b0b9ac/LICENSE-LZBL-1.2",
+    "sha256": "3d4db8501bee378a0da0b8ee497b1857677f267f0db45f2d9db63f2fcd7a78d9"
+  }
+]
